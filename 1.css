@@ -1,0 +1,12 @@
+.body {
+    background: linear-gradient(-90deg,#757474,#3f3f3f);
+    height: 100%;
+}
+section{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+h2{
+    text-align: center;
+    padding-bottom: 30px;
+}
