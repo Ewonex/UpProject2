@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Только CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <link href="1.css" rel="stylesheet" type="text/css">
+    
+</head>
+<body>
+    <script src="1.js"></script>
+
+    <header>
+        <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="1.html">Мое портфолио</a>
+            </div>
+        </nav>
+    </header>
+
+    <section class="section1 bg-light sectionAbout">
+      <img src="me.png" class="meImg">
+
+    </section>
+
+    <section class="section1">
+        <div class="container-xxl">
+            <h2>Мои проекты</h2>
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                        <div class="row justify-content-between ">
+                            <div class="col">
+                                <div class="card w-100">
+                                    <div class="imgdiv">
+                                        <img src="logo/Flappy.jpg" class="card-img-top" alt="...">
+                                    </div>
+                                    <div class="card-body">
+                                      <h5 class="card-title">Flappy Birds</h5>
+                                      <p class="card-text">Курсовая работа на предмет по изучению языка C++. Выполнена на "C++ Builder".</p>
+                                      <div class="butka">
+                                        <button class="btn btn-outline-primary" onclick="changeinf(0)">Посмотреть</button>
+                                      </div>
+                                    </div>
+                                  </div>
+                            </div>
+                            <div class="col">
+                                <div class="card w-100">
+                                    <div class="imgdiv">
+                                        <img src="logo/POBolnica.png" class="card-img-top" alt="...">
+                                    </div>
+                                    <div class="card-body">
+                                      <h5 class="card-title">ПО Больница</h5>
+                                      <p class="card-text">Программа для работников регистратуры, предназначенная для учета пациентов больницы.</p>
+                                      <div class="butka">
+                                        <button class="btn btn-outline-primary" onclick="changeinf(1)">Посмотреть</button>
+                                      </div>
+                                    </div>
+                                  </div>
+                            </div>
+                            <div class="col">
+                                <div class="card w-100">
+                                    <div class="imgdiv">
+                                        <img src="logo/shifr1.png" class="w-100 h-100" alt="...">
+                                    </div>
+                                    <div class="card-body">
+                                      <h5 class="card-title">Шифратор C#</h5>
+                                      <p class="card-text">Шифратор шифрами "Плейфер", "Полибий", "Цезарь". Выполнен на Windows Forms.</p>
+                                      <div class="butka">
+                                        <button class="btn btn-outline-primary" onclick="changeinf(2)">Посмотреть</button>
+                                      </div>
+                                    </div>
+                                  </div>
+                            </div>
+                        </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="row justify-content-between">
+                        <div class="col">
+                            <div class="card w-100">
+                                <div class="imgdiv">
+                                    <img src="logo/shifr2.png" class="w-100 h-100" alt="...">
+                                </div>
+                                <div class="card-body">
+                                  <h5 class="card-title">Шифратор C++</h5>
+                                  <p class="card-text">Шифратор шифрами "Плейфер", "Полибий", "Цезарь", ... Выполнен на "C++ Builder"</p>
+                                  <div class="butka">
+                                    <button class="btn btn-outline-primary" onclick="changeinf(3)">Посмотреть</button>
+                                  </div>
+                                </div>
+                              </div>
+                        </div>
+                        <div class="col">
+                            <div class="card w-100">
+                                <div class="imgdiv">
+                                    <img src="logo/BistroLog.png" class="card-img-top" alt="...">
+                                </div>
+                                <div class="card-body">
+                                  <h5 class="card-title">Пиццерия "Bistro"</h5>
+                                  <p class="card-text">Первый проект по ПССиП. Сайт для пиццерии выполненный на чистом html.</p>
+                                  <div class="butka">
+                                    <button class="btn btn-outline-primary" onclick="changeinf(4)">Посмотреть</button>
+                                  </div>
+                                </div>
+                              </div>
+                        </div>
+                        <div class="col">
+                            <div class="card w-100">
+                                <div class="imgdiv">
+                                    <img src="logo/barmy.png" class="card-img-top" alt="...">
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title">Barmy</h5>
+                                    <p class="card-text">Второй проект по ПССиП. Сайт, выполненный на html и CSS.</p>
+                                    <div class="butka">
+                                        <button class="btn btn-outline-primary" onclick="changeinf(5)">Посмотреть</button>
+                                    </div>
+                                </div>
+                              </div>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="row justify-content-between">
+                        <div class="col">
+                            <div class="card w-100">
+                                <div class="imgdiv">
+                                    <img src="logo/tank.png" class="w-100 h-100" alt="...">
+                                </div>
+                                <div class="card-body">
+                                  <h5 class="card-title">DULO</h5>
+                                  <p class="card-text">ПВП игра про такни на одном ПК. Соревнование с другом на очки.</p>
+                                  <div class="butka">
+                                    <button class="btn btn-outline-primary" onclick="changeinf(6)">Посмотреть</button>
+                                  </div>
+                                </div>
+                              </div>
+                        </div>
+                        <div class="col">
+                            <div class="card w-100">
+                                <div class="imgdiv">
+                                    <img src="logo/emiliya.png" class="w-100 h-100" alt="...">
+                                </div>
+                                <div class="card-body">
+                                  <h5 class="card-title">Бот-помощник для L2 Essence</h5>
+                                  <p class="card-text">Telegram бот на Python, оповещающий вас о смерти или сообщении в игре.</p>
+                                  <div class="butka">
+                                    <button class="btn btn-outline-primary" onclick="changeinf(7)">Посмотреть</button>
+                                  </div>
+                                </div>
+                              </div>
+                        </div>
+                        <div class="col">
+                            <div class="card w-100">
+                                <div class="imgdiv">
+                                    <img src="logo/Frog.png" class="w-100 h-100" alt="...">
+                                </div>
+                                <div class="card-body">
+                                  <h5 class="card-title">Frog Jumper</h5>
+                                  <p class="card-text">Незаконченный проект на Unity2D. Про лягушку, прыгающую по стенкам.</p>
+                                  <div class="butka">
+                                    <button class="btn btn-outline-primary" onclick="changeinf(8)">Посмотреть</button>
+                                  </div>
+                                </div>
+                              </div>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"  data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Предыдущий</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"  data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Следующий</span>
+                </button>
+              </div>
+        </div>
+      </section>
+
+      <section class="s1">
+        <footer class="text-center text-lg-start bg-light text-muted">
+        
+            <section class="section2">
+            <div class="container text-center text-md-start mt-5">
+                <!-- Grid row -->
+                <div class="row mt-3">
+                <!-- Grid column -->
+                <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                    <!-- Content -->
+                    <h6 class="text-uppercase fw-bold mb-4">
+                    <i class="fas fa-gem me-3"></i>Криворот Денис Сергеевич
+                    </h6>
+                    <p>
+                    Студент 3 курса специальности ПОИТ. Группа П-1906.
+                    </p>
+                </div>
+                <!-- Grid column -->
+        
+            
+        
+               
+        
+                <!-- Grid column -->
+                <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                    <h6 class="text-uppercase fw-bold mb-4">
+                    Contact
+                    </h6>
+                    <p>
+                        1195117@mtp.by
+                    </p>
+                    <p>
+                        +375(33)634-01-28
+                    </p>
+                
+                </div>
+                <!-- Grid column -->
+                </div>
+                <!-- Grid row -->
+            </div>
+            </section>
+        </footer>
+      </section>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+</body>
+</html>
